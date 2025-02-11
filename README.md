@@ -1,0 +1,1 @@
+This example demonstrates a subtle issue with VBScript's `IsEmpty` function.  While typically used to check for empty variables, it can unexpectedly raise a type mismatch error (error 13) when encountering certain data types. This is different from how `IsEmpty` behaves in other languages.
